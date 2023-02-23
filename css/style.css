@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: antiquewhite;
+    max-width: 80%;
+    margin: 3.125rem auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container ul#fizz-buzz-list {
+    list-style: none;
+    padding: 1.25rem;
+    text-align: center;
+    gap: 10px;
+}
+
+.container ul#fizz-buzz-list li {
+    width: calc(100% / 10 - 10px);
+    margin-bottom: .625rem;
+    line-height: 3.75rem;
+}
+
+.container ul#fizz-buzz-list li#item{
+    background-color: lightblue;
+
+}
+
+.container ul#fizz-buzz-list li#buzz-item{
+    background-color: lightyellow;
+}
+
+.container ul#fizz-buzz-list li#fizz-buzz-item{
+    background-color: lightcoral;
+}
+
+.container ul#fizz-buzz-list li#fizz-item{
+    background-color: lightgreen;
+}
